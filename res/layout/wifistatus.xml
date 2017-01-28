@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/darkred">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/refresh"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Refresh" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save Measurement" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_loc1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Location 1" />
+
+            <Button
+                android:id="@+id/button_loc2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Location 2" />
+
+            <Button
+                android:id="@+id/button_loc3"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Location 3" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/selection"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="@color/black" 
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

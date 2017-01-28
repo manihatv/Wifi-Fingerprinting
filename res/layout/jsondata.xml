@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkred"
+    android:orientation="vertical" >
+	
+    <TextView
+        android:id="@+id/LocalizationHeader1"
+        android:layout_width="241dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:text="Localising Given Measurement Data" />
+    
+    <Button
+        android:id="@+id/measure1"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="viewresult"
+        android:text="Locate Measurement Data 1 " />
+
+    <Button
+        android:id="@+id/measure2"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="viewresult"
+        android:text="Locate Measurement Data 2 " />
+
+    <TextView
+        android:id="@+id/LocalizationHeader2"
+        android:layout_width="241dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:text="Localising Data Near Room a141" />
+    
+    <Button
+        android:id="@+id/measure3"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="viewresult"
+        android:text="Locate Given Measurement" />
+    
+    <Button
+        android:id="@+id/measure4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="viewresult"
+        android:text="Locate Recorded Measurement" />
+
+    <TextView
+        android:id="@+id/LocalizationHeader3"
+        android:layout_width="241dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:text="Localising Self Constructed Measurement Data" />
+    
+    <Button
+        android:id="@+id/measure_self"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="viewresult"
+        android:text="Locate Self Measured Data" />
+    
+    <TextView
+        android:id="@+id/RoomNoHeader"
+        android:layout_width="241dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:text="Your Estimated Location Is" />
+
+    <TextView
+        android:id="@+id/RoomNumber"
+        android:layout_width="141dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="" />
+    
+</LinearLayout>

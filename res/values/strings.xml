@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">wififingerprinting</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sensor_header">Available Sensors in the Device</string>
+    <string name="home_screen">Mobile Sensing</string>
+    <string name="check_sensor">Available Sensors</string>
+    <string name="check_aps">Check Fingerprints</string>
+    <string name="Localize">Localize The Positions</string>
+    
+
+</resources>
